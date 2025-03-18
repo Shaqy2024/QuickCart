@@ -1,3 +1,4 @@
+"use client"
 import mongoose from "mongoose";
 
 
@@ -13,5 +14,6 @@ cartItems:{ type:Object, default:{}}
 
 
 const User = mongoose.models.user || mongoose.model('user',userSchema)
+
 
 export default User
